@@ -1,0 +1,20 @@
+- slug: jekyll
+  name: Jekyll
+
+- slug: documentation
+  name: Documentation
+
+- slug: examples
+  name: Examples
+
+- slug: github
+  name: GitHub
+
+- slug: machine-learning
+  name: Machine Learning
+
+- slug: pr12
+  name: PR12
+
+- slug: paper
+  name: paper

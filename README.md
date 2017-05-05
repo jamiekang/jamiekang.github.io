@@ -13,6 +13,7 @@ Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content 
   - [Sidebar menu](#sidebar-menu)
   - [Themes](#themes)
   - [Reverse layout](#reverse-layout)
+- [Tags](#tags)
 - [Development](#development)
 - [Author](#author)
 - [License](#license)
@@ -100,7 +101,7 @@ It's also available for a reversed layout when you add both classes:
 
 ### Sidebar open on page load
 
-Show an open sidebar on page load by modifying the `<input>` tag within the `sidebar.html` layout to add the `checked` boolean attribute:
+Show an open sidebar on page load by modifying the `<input>` to add the `checked` boolean attribute:
 
 ```html
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked>
@@ -110,6 +111,40 @@ Using Liquid you can also conditionally show the sidebar open on a per-page basi
 
 ```html
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" {% if page.title =="Home" %}checked{% endif %}>
+```
+
+## Tags
+
+Create tags with `_tools/createTag url-name "Pretty Name"`. Tag posts by adding `tags: [tag-name]` to the front matter of post files.
+
+For example:
+
+* Create a new tag called *using-git*
+
+```
+$ ./_tools/createTag using-git "Using git"
+```
+
+* Create a new post file: `_posts/2014-12-31-how-to-clone-a-repository.md`
+
+```
+---
+layout: post
+title: How to clone a repository
+tags: [using-git, documentation]
+---
+
+See the [GitHub topic](https://help.github.com/articles/fork-a-repo/). It's pretty good.
+```
+
+* Add, commit, and push the updates:
+
+```
+$ git add _data/tags.yml
+$ git add tag/using-git.md
+$ git add _posts/2014-12-31-how-to-clone-a-repository.md
+$ git commit -m "Add new tag and post"
+$ git push
 ```
 
 ## Development
