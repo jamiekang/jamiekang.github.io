@@ -7,7 +7,7 @@ permalink:           pretty
 title:               Pull Requests for Tomorrow
 tagline:             "Jamie Kang's weblog on building recent computing systems"
 description:         "Jamie Kang's weblog on building recent computing systems."
-url:                 http://jamiekang.github.io
+url:                 ''
 baseurl:             ''
 gems:                [jekyll-paginate]
 paginate:            5
