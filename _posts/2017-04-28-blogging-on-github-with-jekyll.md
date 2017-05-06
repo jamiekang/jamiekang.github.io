@@ -5,7 +5,8 @@ use_math: true
 date: 2017-04-28 03:22:31
 #categories: 
 #- Keep Learning
-tags: [Jekyll, GitHub]
+tags: [jekyll, github]
+#tags: [Jekyll, GitHub]
 ---
 
 GitHub에 블로그를 만들려면 알아야 할 것이 많습니다. 티스토리나 WordPress를 쓰던 것과는 사뭇 다른 방식이라서 처음에 고생하게 되는데, 이 블로그를 꾸미며 배운 것들을 간단히 정리해 보겠습니다.

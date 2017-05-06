@@ -8,7 +8,7 @@ gitRepoRoot="$(git rev-parse --show-toplevel)"
 tagDataFile="${gitRepoRoot}/_data/tags.yml"
 
 if test $# -ne 1; then
-  echo "Usage: createTag 'Pretty Name'"
+  echo "Usage: createTag 'Tag Name'"
   echo
   echo "Tag list:"
   cat "${tagDataFile}" | grep name | gawk -F ':' '{print " " $NF}' | sort
@@ -46,3 +46,4 @@ echo "Begin using this tag by adding this line to your post's Front Matter:"
 echo "  ---"
 echo "  tags: [${newTagSlugName}]"
 echo "  ---"
+echo "** Note: You must use tag-slug instead of 'Tag Name' in your markdown post."

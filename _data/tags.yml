@@ -1,12 +1,6 @@
 - slug: jekyll
   name: Jekyll
 
-- slug: documentation
-  name: Documentation
-
-- slug: examples
-  name: Examples
-
 - slug: github
   name: GitHub
 
@@ -17,4 +11,4 @@
   name: PR12
 
 - slug: paper
-  name: paper
+  name: Paper

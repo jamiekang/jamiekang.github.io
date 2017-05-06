@@ -3,9 +3,9 @@ layout: post
 title: Generative Adversarial Nets
 use_math: true
 date: 2017-04-29 04:42:34
+tags: [pr12, paper, machine-learning] 
 #categories: 
 #- Machine Learning
-tags: [Machine Learning, paper, PR12] 
 ---
 
 오늘 소개하려는 Ian J. Goodfellow의 ["Generative Adversarial Nets"](http://arxiv.org/abs/1406.2661v1)는 이달 초 시작된 [PR12](https://youtu.be/auKdde7Anr8?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS)의 첫 번째 논문입니다. 
