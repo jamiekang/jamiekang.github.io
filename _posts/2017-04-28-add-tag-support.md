@@ -80,7 +80,7 @@ your markdown or html starts here
 -->
 ```
 
-여기서 중요한 것은, **front matter에 내가 쓰고 싶은 tag의 이름("GitHub Pages")을 적는 것이 아니라 그 tag의 slug (`github-pages`)를 적는다는 것입니다.** 등록한 tag들의 이름과 slug 정보는 `_data/tags.yml` 라는 파일에 아래와 같이 간단한 형식으로 기록되어 있습니다.
+여기서 중요한 것은, **front matter에 내가 쓰고 싶은 tag의 이름("GitHub Pages")을 적는 것이 아니라 그 tag의 slug (`github-pages`)을 적는다는 것입니다.** 등록한 tag들의 이름과 slug 정보는 `_data/tags.yml` 라는 파일에 아래와 같이 간단한 형식으로 기록되어 있습니다.
 
 ```yml
 - slug: jekyll
