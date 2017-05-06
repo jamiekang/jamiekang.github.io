@@ -309,15 +309,8 @@ a.sidebar-nav-item:focus {
 
 .page,
 .post {
-  margin-bottom: 2em;
-  border-bottom: 1px solid #eee;
-}
-
-/* backup by Jamie
-.post {
   margin-bottom: 4em;
 }
-*/
 
 /* Blog post or page title */
 .page-title,

@@ -74,7 +74,7 @@ your markdown or html starts here
 
 저는 loustler 님의 [Jekyll을 이용한 Github pages 만들기[심화/Google Analytics 적용]](http://loustler.io/2016/09/26/github_pages_blog_google_analytics/)이라는 포스트 내용을 참고해서 적용했습니다. Google Analytics에 가입할 때 빈 칸 몇 개를 채우는 것이 가장 어려운 일이었을 정도로 설정이 쉽습니다.
 
-![Dashboard]({{ site.baseurl }}/media/2017-04-28-blogging-on-github-with-jekyll-google-analytics.jpg)
+![Dashboard]({{ site.baseurl }}/media/2017-04-28-blogging-on-github-with-jekyll-google-analytics2.jpg)
 
 Google Analytics의 분석 결과는 위의 그림과 같이 확인할 수 있다고 합니다. 아직 이 블로그는 보여드릴 만한 통계가 없어서, 위의 이미지는 [flickr](https://www.flickr.com)에 공개된 것을 사용했습니다. 나중에 실제 dashboard 이미지로 바꿔 보여드리겠습니다.
 
