@@ -78,6 +78,8 @@ your markdown or html starts here
 
 Google Analytics의 분석 결과는 위의 그림과 같이 확인할 수 있다고 합니다. 아직 이 블로그는 보여드릴 만한 통계가 없어서, 위의 이미지는 [flickr](https://www.flickr.com)에 공개된 것을 사용했습니다. 나중에 실제 dashboard 이미지로 바꿔 보여드리겠습니다.
 
+-- *[Jamie](http://twitter.com/JiyangKang);*
+
 ## References
 
 **Jekyll Blog 일반**

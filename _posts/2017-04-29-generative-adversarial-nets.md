@@ -48,6 +48,8 @@ $$
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/L3hz57whyNw?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS" frameborder="0" allowfullscreen></iframe>
 
+-- *[Jamie](http://twitter.com/JiyangKang);*
+
 **References**
 - [엄태웅 님의 "Awesome - Most Cited Deep Learning Papers"](https://github.com/terryum/awesome-deep-learning-papers)
 - [Ian Goodfellow의 paper @arXiv.org](http://arxiv.org/abs/1406.2661v1)

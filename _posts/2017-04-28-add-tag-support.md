@@ -117,13 +117,15 @@ your markdown or html starts here
 
 GitHub pages로 구현한 블로그는 repository에 모든 소스가 들어 있기 때문에 (공개된 repository라면) 소스를 찾아볼 수 있습니다. 
 
-Lanyon theme 기반으로 가장 완성도 높은 블로그 중의 하나는 [Michael Lanyon의 블로그](https://blog.lanyonm.org/)입니다. 감춰진 왼편 sidebar에서 [TAGS](https://blog.lanyonm.org/tags.html)를 선택하면 아래 스크린샷처럼 간결하게 정리된 Tags 페이지가 나옵니다.
+Lanyon theme 기반으로 가장 완성도 높은 블로그 중의 하나는 [Michael Lanyon의 블로그](https://blog.lanyonm.org/)입니다. 감춰진 왼편 sidebar에서 [TAGS](https://blog.lanyonm.org/tags.html)를 선택하면 아래 스크린샷처럼 깔끔하게 정리된 Tags 페이지가 나옵니다.
 
 ![lanyonm]({{ site.baseurl }}/media/2017-04-28-add-tag-support-lanyonm.jpg)
 
 이 블로그의 Jekyll 소스는 [lanyonm/lanyonm.github.io](https://github.com/lanyonm/lanyonm.github.io) 라는 repository에 공개되어 있습니다.
 
 한 가지 주의할 것은 해당 사이트의 라이센스 정책입니다. Jekyll 기반의 블로그는 대개 [MIT 라이센스](https://ko.wikipedia.org/wiki/MIT_%ED%97%88%EA%B0%80%EC%84%9C)를 따르지만, 작업 전에 반드시 개별 정책을 확인할 필요가 있습니다.
+
+-- *[Jamie](http://twitter.com/JiyangKang);*
 
 ## References
 
