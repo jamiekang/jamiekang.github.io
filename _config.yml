@@ -6,7 +6,7 @@ permalink:           pretty
 # Setup
 title:               Pull Requests for Tomorrow
 tagline:             "Jamie Kang's weblog on computing"
-description:         "Jamie Kang's weblog on building recent computing systems."
+description:         "Jamie Kang's weblog on computing."
 url:                 ''
 baseurl:             ''
 gems:                [jekyll-paginate]
@@ -16,7 +16,7 @@ paginate_path:       "page:num"
 # About/contact
 author:
   name:              Jiyang "Jamie" Kang
-  url:               https://twitter.com/jiyangkang
+  url:               https://twitter.com/JiyangKang
   email:             jiyangkang@gmail.com
 
 # Custom vars

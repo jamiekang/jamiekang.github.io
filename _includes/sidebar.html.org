@@ -25,22 +25,14 @@
       {% endif %}
     {% endfor %}
 
-    <span class="sidebar-nav-item">Last Update: {{ site.date | date: "%-d %B %Y"}}</span>
+    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
+    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
 
   <div class="sidebar-item">
     <p>
-      Hi, I'm Jiyang "Jamie" Kang, Managing Director of PIOLINK, Inc. &ndash; though opinions expressed here are my own.  I'm into cloud computing and machine learning these days.
-    </p>
-    <p class="social-icons">
-      <a href="https://github.com/jamiekang"><i class="fa fa-github fa-2x"></i></a>
-      <a href="https://twitter.com/JiyangKang"><i class="fa fa-twitter fa-2x"></i></a>
-      <a href="https://www.facebook.com/jiyang.kang"><i class="fa fa-facebook fa-2x"></i></a>
-      <a href="https://www.linkedin.com/in/JiyangKang"><i class="fa fa-linkedin fa-2x"></i></a>
-      <a href="/feed.xml"><i class="fa fa-rss fa-2x"></i></a>
-    </p>
-    <p>
-      &copy; {{ site.date | date: '%Y' }} All rights reserved.
+      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
   </div>
 </div>
