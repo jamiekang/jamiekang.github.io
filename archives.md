@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Posts
+title: Archives
 ---
 
 <!--
 {% include top_tags.html count_as_heading='Five' count_as_number=5 %}
 {% include post_archive.html %}
 -->
+<h2>All Posts</h2>
 <div>
   <ul class="posts">
     {% for post in site.posts %}
