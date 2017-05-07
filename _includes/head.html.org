@@ -6,8 +6,6 @@
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.name }}</title>
-  <!--
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
@@ -15,15 +13,6 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
-  -->
-
-  <meta name="author" content="{{ site.author }}">
-  <link rel="author" href="https://plus.google.com/+MichaelLanyon" title="Michael Lanyon on Google+" />
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
-  <meta name="viewport" content="width=device-width">
-  <link rel="canonical" href="{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}" />
-  <link rel="shortcut icon" href="favicon.ico" />
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css">
