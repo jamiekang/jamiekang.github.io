@@ -51,11 +51,13 @@ $$
 -- *[Jamie](http://twitter.com/JiyangKang);*
 
 **References**
-- [엄태웅 님의 "Awesome - Most Cited Deep Learning Papers"](https://github.com/terryum/awesome-deep-learning-papers)
-- [Ian Goodfellow의 paper @arXiv.org](http://arxiv.org/abs/1406.2661v1)
-- [유재준 님의 블로그 "초짜 대학원생 입장에서 이해하는 Generative Adversarial Nets (1)"](http://jaejunyoo.blogspot.com/2017/01/generative-adversarial-nets-1.html)
-- [유재준 님의 블로그 "초짜 대학원생 입장에서 이해하는 Generative Adversarial Nets (2)"](http://jaejunyoo.blogspot.com/2017/01/generative-adversarial-nets-2.html)
-- [Ian Goodfellow의 NIPS 2016 Tutorial 슬라이드](https://media.nips.cc/Conferences/2016/Slides/6202-Slides.pdf)
-- [Ian Goodfellow의 NIPS 2016 Tutorial 동영상](https://sec.ch9.ms/ch9/6b3d/57930795-7f62-4218-8e18-888623426b3d/Goodfellow_mid.mp4)
-- [김남주 님의 slide "Generative Adversarial Networks (GAN)"](https://www.slideshare.net/ssuser77ee21/generative-adversarial-networks-70896091?qid=73145ce5-644c-4d03-8d55-b2da0a8b28e2&v=&b=&from_search=1)
+- Ian Goodfellow의 [paper @arXiv.org](http://arxiv.org/abs/1406.2661v1) 
+- Ian Goodfellow의 [NIPS 2016 Tutorial 슬라이드](https://media.nips.cc/Conferences/2016/Slides/6202-Slides.pdf)
+- Ian Goodfellow의 [NIPS 2016 Tutorial 동영상](https://sec.ch9.ms/ch9/6b3d/57930795-7f62-4218-8e18-888623426b3d/Goodfellow_mid.mp4)
+- 유재준 님의 슬라이드 ["PR12와 함께 이해하는 GANs"](https://www.slideshare.net/thinkingfactory/pr12-intro-to-gans-jaejun-yoo?qid=9517ac4b-2139-4498-8f04-71ec7f5f9ff1&v=&b=&from_search=1)
+- 유재준 님의 동영상 ["PR-001: Generative adversarial nets by Jaejun Yoo"](https://youtu.be/L3hz57whyNw?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS)
+- 유재준 님의 블로그 ["초짜 대학원생 입장에서 이해하는 Generative Adversarial Nets (1)"](http://jaejunyoo.blogspot.com/2017/01/generative-adversarial-nets-1.html)
+- 유재준 님의 블로그 ["초짜 대학원생 입장에서 이해하는 Generative Adversarial Nets (2)"](http://jaejunyoo.blogspot.com/2017/01/generative-adversarial-nets-2.html)
+- 김남주 님의 슬라이드 ["Generative Adversarial Networks (GAN)"](https://www.slideshare.net/ssuser77ee21/generative-adversarial-networks-70896091?qid=73145ce5-644c-4d03-8d55-b2da0a8b28e2&v=&b=&from_search=1)
+- 엄태웅 님의 ["Awesome - Most Cited Deep Learning Papers"](https://github.com/terryum/awesome-deep-learning-papers)
 
