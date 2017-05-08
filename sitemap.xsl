@@ -18,11 +18,11 @@ layout: null
         <div id="content">
           <h1>XML Sitemap</h1>
           <p>This is a generated
-            <a href="http://loustler.iositemap.xml">sitemap</a>
+            <a href="http://jamiekang.github.io/sitemap.xml">sitemap</a>
             for robot, orcs or elves.
           </p>
           <p>You might to visit a
-            <a href="http://loustler.io">site</a>
+            <a href="http://jamiekang.github.io/">site</a>
             for human.
           </p>
           <xsl:if test="count(sitemap:sitemapindex/sitemap:sitemap) &gt; 0">
