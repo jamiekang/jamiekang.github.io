@@ -43,4 +43,13 @@
   -->
   <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.name }}">
 
+<!-- added by Jamie Kang -->
+  {% include mathjax_support.html %}
+
+  {% if site.google_analytics %}
+    {% include google_analytics.html %}
+  {% endif %}
+
+    {% include sidebar.html %}
+
 </head>
