@@ -13,3 +13,12 @@
 - slug: github
   name: GitHub
 
+
+- slug: gan
+  name: GAN
+
+- slug: reinforcement-learning
+  name: Reinforcement Learning
+
+- slug: unsupervised-learning
+  name: Unsupervised Learning

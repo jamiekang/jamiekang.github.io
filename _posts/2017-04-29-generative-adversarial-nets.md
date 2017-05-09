@@ -3,14 +3,14 @@ layout: post
 title: Generative Adversarial Nets
 use_math: true
 date: 2017-04-29 04:42:34
-tags: [pr12, paper, machine-learning] 
-#categories: 
-#- Machine Learning
+tags: [pr12, paper, machine-learning, gan, unsupervised-learning] 
 ---
 
 오늘 소개하려는 Ian J. Goodfellow의 ["Generative Adversarial Nets"](http://arxiv.org/abs/1406.2661v1)는 이달 초 시작된 [PR12](https://youtu.be/auKdde7Anr8?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS)의 첫 번째 논문입니다. 
 
 PR12는 facebook TensorFlowKR community에서 만들어진 논문 읽기 모임입니다. 엄태웅 님의 [Awesome - Most Cited Deep Learning Papers](https://github.com/terryum/awesome-deep-learning-papers)에 소개된 논문 100편을 1년 동안 매주 2편씩 스터디 하고 있습니다. 
+
+## GAN이란? ##
 
 GAN은 2016년에 가장 많은 관심을 받았던 주제이며, unsupervised learning의 한 가지 방법입니다. Yann LeCun 교수가 ["the most interesting idea in the last 10 years in ML"](https://www.quora.com/What-are-some-recent-and-potentially-upcoming-breakthroughs-in-deep-learning)로 꼽아 유명세를 타기도 했습니다.
 
@@ -24,6 +24,8 @@ $$
 
 오른쪽 첫 번째 항 $$\mathbb{E}_{x\sim p_{data}~(x)}[log D(x)]$$에서 Discriminator $D(x)$는 실제 data와 $G(z)$가 만들어낸 data에 정확한 label을 붙(일 확률을 높)이려는 방향으로 학습됩니다. 한편, 두 번째 항 $$\mathbb{E}_{z\sim p_x(z)}[log(1-D(G(z)))]$$에서 Generator $G(z)$는 $log(1-D(G(z)))$을 최소화하려는 방향으로 학습됩니다. 이와 같은 특성 때문에 GAN의 value function은 흔히 min max, 또는 minimax라는 문제가 됩니다. 이 용어는 게임 이론에서 유래된 단어입니다. 
 
+## GAN의 구현 알고리즘 ##
+
 이 논문에 예시된 알고리즘은 아래와 같습니다.
 
 > ![Algorithm1]({{ site.baseurl }}/media/2017-04-29-generative-adversarial-nets-algorithm1.png)
@@ -33,6 +35,8 @@ $$
 구현 시 더 빠른 학습을 위해 learning rate를 adaptation하는 Adam 등의 최적화 기법을 적용하기도 합니다. 참고로 Adam을 포함해 흔히 사용되는 gradient descent optimization algorithm들은 Sebastian Ruder의 [블로그](http://sebastianruder.com/optimizing-gradient-descent/)와 [논문](http://arxiv.org/abs/1609.04747)에 잘 정리되어 있습니다.
 
 위의 알고리즘이 converge하는 것을 이 논문에서는 KL (Kullback-Leibler) divergence와 JS (Jensen-Shannon) divergence를 사용해서 증명을 시도합니다. 그런데 실제 구현을 neural network으로 하면서도 증명은 probability function의 관점에서 하기 때문에 다소 억지로 맞춘 듯한 느낌이 있습니다. Training이 어려운 것과 함께 이러한 GAN의 단점을 극복하기 위해, 더 엄밀한 수학적 전개를 적용한  [Wasserstein GAN (WGAN)](https://arxiv.org/pdf/1701.07875v1.pdf)이라는 논문이 후에 주목받게 됩니다.
+
+## GAN에 대한 평가 ##
 
 현재까지 알려진 GAN의 장단점은 아래와 같습니다.
 - 장점
