@@ -3,12 +3,18 @@ layout: page
 title: About
 ---
 
-![Under Construction]({{ site.baseurl }}/media/underconstruction_640.jpg)
+*What is a pull request?*
 
-<p class="message">
-  This page is under construction.
-</p>
+> "A pull request is a method of submitting contributions to an open development project." -- *Mark Johnson*, [OSS Watch](http://oss-watch.ac.uk/resources/pullrequest)
 
-Thanks for your patience and see you soon!
+![Pic]({{ site.baseurl }}/media/pic_150x150_circle.png)
 
--- *[Jamie](http://twitter.com/JiyangKang);*
+Hi all, I'm Jiyang "Jamie" Kang.
+
+This blog, *{{ site.title }}*, covers my notes and thoughts for recent innovations in computing and aims to be my little contribution to our *open* future.
+
+Thanks for reading!
+
+-- *[Jamie](http://twitter.com/JiyangKang);* <br>
+[`jamiekang.github.io`](http://jamiekang.github.io), [`jiyangkang.com`](http://jiyangkang.com)
+
