@@ -91,6 +91,7 @@ Q-learning 값을 update하는 식에서 max 연산자를 사용하기 때문에
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V7_cNTfm2i8?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS" frameborder="0" allowfullscreen></iframe>
 
+<br>
 -- *[Jamie](http://twitter.com/JiyangKang);*
 
 **References**

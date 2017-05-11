@@ -2,7 +2,7 @@
 layout: post
 title: Generative Adversarial Nets
 use_math: true
-date: 2017-04-29 04:42:34
+date: 2017-04-16 04:42:34 +0900
 tags: [pr12, paper, machine-learning, gan, unsupervised-learning] 
 ---
 
@@ -52,6 +52,7 @@ $$
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/L3hz57whyNw?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS" frameborder="0" allowfullscreen></iframe>
 
+<br>
 -- *[Jamie](http://twitter.com/JiyangKang);*
 
 **References**

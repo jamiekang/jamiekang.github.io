@@ -25,3 +25,9 @@
 
 - slug: neural-turing-machine
   name: Neural Turing Machine
+
+- slug: cnn
+  name: CNN
+
+- slug: supervised-learning
+  name: Supervised Learning

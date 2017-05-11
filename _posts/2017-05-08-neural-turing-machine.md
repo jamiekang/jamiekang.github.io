@@ -118,8 +118,11 @@ $$
 
 ![DNC]({{ site.baseurl }}/media/2017-05-08-neural-turing-machine-dnc.png)
 
-이 논문에 더 상세한 리뷰는 나중에 새로운 포스트로 추가하겠습니다.
+이 논문의 더 상세한 리뷰는 나중에 새로운 포스트로 추가하겠습니다.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2wbDiZCWQtY" frameborder="0" allowfullscreen></iframe>
+
+<br>
 -- *[Jamie](http://twitter.com/JiyangKang);*
 
 **References**
