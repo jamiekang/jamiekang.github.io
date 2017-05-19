@@ -1,12 +1,23 @@
 ---
 layout: post
-title: Deformable Convolutional Networks
+title: Reverse Classification Accuracy
 use_math: true
-date: 2017-04-16 09:29:10 +0900
+date: 2017-05-16 09:29:10 +0900
 tags: [pr12, paper, machine-learning, cnn] 
+published: false
 ---
 
 이번 논문은 Microsoft Research Asia에서 2017년 3월에 공개한 ["Deformable Convolutional Networks"](https://arxiv.org/abs/1703.06211)입니다.
+
+오늘 소개할 논문은 "Reverse Classification Accuracy: Predicting Segmentation Performance in the Absence of Ground Truth" (https://arxiv.org/abs/1702.034074, IEEE TRANSACTIONS ON MEDICAL IMAGING, 2017)입니다.제목 그대로 ground truth 데이터가 없을 때 어떻게 performance를 측정할까에 대한 하나의 방법론 제시입니다.
+
+ground truth 데이터가 없을 때의 성능에 관한 문제는 단순히 성능 평가에 대한 문제만은 아닙니다. 어떤 데이터베이스나 새로운 도메인 데이터를 판단할 때, 현재 방식이 그 데이터에 대해 실패하지 않고 평가하고 있냐라는 문제의 답이기도 하기 때문입니다. 이미 작년 Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning (https://arxiv.org/abs/1506.021422) 논문을 통해서 deep learning의 uncertainty에 관한 문제가 한번 이슈가 되었기에 다들 아실거 같습니다.
+
+이 논문의 기본 아이디어는 reverse testing 방법에 기반하고 있습니다. 만약 저희가 학습 데이터에 대해서는 확인할 Ground truth가 있고, test data에 대해서는 없는 상황입니다. 그렇다면 reverse testing 방법은 test에서 생성된 prediction 값을 이용해 새로운 classifier을 생성해 이 것을 training 셋에 적용하여 확인하는 방법입니다. 그러니깐 test 데이터와 test 데이터로 생성된 prediction 결과가 하나의 reverse classifier의 training data가 되는 것이고, 그리고 원래 training data가 그 reverse classifier의 validation data정도로 활용되는 것입니다. 논문에서는 사용된 가정은 그렇게 reverse testing에서의 reverse classification accuracy가 좋으면 원래 classification 성능도 좋다라는 가정입니다. 실험에서 그 correlation 값을 구해서 보여주고 있고요.
+
+논문의 실험 결과를 살펴보시면, 제한적이긴 하지만 특정 알고리즘을 reverse classifier의 학습 알고리즘으로 선택시 reverse classification accuracy와 실제 accuracy와 상관관계가 유의할만한 수준으로 나오고 있었습니다.
+
+학습할 데이터가 없는 것도 문제지만, 알고리즘을 제대로 평가할 데이터가 없는 것도 문제입니다. 또한 새로운 도메인에 이미 있는 알고리즘을 적용할 때 이 알고리즘이 실패할지를 판단할 근거가 애매한 경우가 있고, 특히 의료영상에서는 이런 일들이 중요한 경우가 많습니다. 그럴 때 이런 방법도 한번 고려하여 생각해 보시면 좋을듯 합니다. 그리고 이 방법을 하나의 데이터를 분류하는 방법으로 바꿔 생각하면 데이터를 평가하는 좋은 메져로써도 바꾸어 연구할 수 있을거 같습니다.
 
 이 논문의 저자들은, [**CNN** (Convolutional Neural Network)](https://en.wikipedia.org/wiki/Convolutional_neural_network)이 (지금까지 image 처리 분야에서 많은 성과를 거뒀지만) 근본적으로 한계가 있다고 주장합니다.
 CNN에서 사용하는 여러 연산(convolution, pooling, RoI pooling 등)이 기하학적으로 일정한 패턴을 가정하고 있기 때문에 복잡한 transformation에 유연하게 대처하기 어렵다는 것입니다.
@@ -56,21 +67,12 @@ Neural network에서 convolutional layer와 fully-connected layer의 차이에 �
 지금까지 deep learning 분야의 많은 연구들이 predictor의 weight 값 $w$를 구하는 방법에 초점을 맞췄던 반면, 이 논문은 어떤 데이터 $x$를 뽑을 것인가에 초점을 맞췄다는 점이 [참신하다는 평가](https://www.reddit.com/r/MachineLearning/comments/60kr4t/r_deformable_convolutional_networks_from_msra/)를 받고 있습니다. 이제 갓 발표된 논문인 만큼, 향후 다른 연구에 어떤 영향을 미칠지 앞으로 주목할 필요가 있을 것 같군요.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RRwaz0fBQ0Y?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jbnjzyJDldA" frameborder="0" allowfullscreen></iframe>
 
 <br>
 -- *[Jamie](http://twitter.com/JiyangKang);*
 
 **References**
 
-- Jifeng Dai의 논문 ["Deformable Convolutional Networks"](https://arxiv.org/abs/1703.06211)
-- Jifeng Dai 및 저자들의 GitHub [repository](https://github.com/msracver/Deformable-ConvNets)
-- 엄태웅 님의 슬라이드 ["Deformable Convolutional Networks"](https://www.slideshare.net/TerryTaewoongUm/deformable-convolutional-network-2017)
-- 엄태웅 님의 동영상 ["PR-002: Deformable Convolutional Networks (2017)"](https://youtu.be/RRwaz0fBQ0Y?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS)
-- Felix Lau의 [Notes on “Deformable Convolutional Networks”](https://medium.com/@phelixlau/notes-on-deformable-convolutional-networks-baaabbc11cf3)
-- Ross Girshick의 논문 ["Fast R-CNN"](https://arxiv.org/abs/1504.08083)
-- Ross Girshick의 슬라이드 ["Fast R-CNN"](http://www.robots.ox.ac.uk/~tvg/publications/talks/fast-rcnn-slides.pdf)
-- deepsense.io의 블로그 ["Region of interest pooling explained"](https://deepsense.io/region-of-interest-pooling-explained/)
-- deepsense.io의 블로그 ["Region of interest pooling in TensorFlow – example"](https://deepsense.io/region-of-interest-pooling-in-tensorflow-example/)
-- Wikipedia의 [CNN (Convolutional Neural Network)](https://en.wikipedia.org/wiki/Convolutional_neural_network)
-- Reddit의 ["What is the difference between a Fully-Connected and Convolutional Neural Network?"](https://www.reddit.com/r/MachineLearning/comments/3yy7ko/what_is_the_difference_between_a_fullyconnected/)
+- Vanya V. Valindria의 논문 ["Reverse Classification Accuracy: Predicting Segmentation Performance in the Absence of Ground Truth"](https://arxiv.org/abs/1702.03407)
+- 정동준 님의 동영상 ["PR-008: Reverse Classification Accuracy"](https://youtu.be/jbnjzyJDldA)

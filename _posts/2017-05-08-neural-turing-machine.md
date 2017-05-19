@@ -120,7 +120,7 @@ $$
 
 이 논문의 더 상세한 리뷰는 나중에 새로운 포스트로 추가하겠습니다.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2wbDiZCWQtY" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2wbDiZCWQtY?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS" frameborder="0" allowfullscreen></iframe>
 
 <br>
 -- *[Jamie](http://twitter.com/JiyangKang);*
@@ -132,6 +132,7 @@ $$
 - Daniel Shank의 발표 ["Neural Turing Machines: Perils and Promise"](http://blog.talla.com/neural-turing-machines-perils-and-promise)
 - Kato Yuzuru의 슬라이드 ["A summary of Neural Turing Machines (NTM)"](https://www.slideshare.net/yuzurukato/neural-turing-machines-43179669)
 - Ilya Kuzovkin의 슬라이드 ["Neural Turing Machines by Google DeepMind"](https://www.slideshare.net/iljakuzovkin/neural-turing-machines)
+- 서기호 님의 동영상 ["PR-006: Neural Turing Machine"](https://youtu.be/2wbDiZCWQtY?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS)
 - Alex Graves의 인터뷰 ([Linkedin](https://www.linkedin.com/pulse/deep-minds-interview-googles-alex-graves-koray-sophie-curtis)) ["Deep Minds: An Interview with Google's Alex Graves & Koray Kavukcuoglu"](https://www.linkedin.com/pulse/deep-minds-interview-googles-alex-graves-koray-sophie-curtis) 
 - Wikipedia의 [Neural Turing Machine](https://en.wikipedia.org/wiki/Neural_Turing_machine)
 - Mike James의 article ([IProgrammer](http://www.i-programmer.info)) ["DeepMind's Differentiable Neural Network Thinks Deeply"](http://www.i-programmer.info/news/105-artificial-intelligence/10174-deepminds-differential-nn-thinks-deeply.html)
