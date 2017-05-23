@@ -89,10 +89,11 @@ Q-learning 값을 update하는 식에서 max 연산자를 사용하기 때문에
 
 또한, replay memory에서 uniform random sampling하는 DQN의 방식을 개선한 [prioritized experience replay](https://arxiv.org/abs/1511.05952)라는 기법이 제안되기도 했습니다. 이 방법은 더 중요한 experience를 더 자주 replay하도록 weight을 주어 효율적인 학습 효과를 보였습니다.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V7_cNTfm2i8?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS" frameborder="0" allowfullscreen></iframe>
-
-<br>
 -- *[Jamie](http://twitter.com/JiyangKang);*
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V7_cNTfm2i8?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS" frameborder="0" allowfullscreen></iframe>
+<br>
+
 
 **References**
 - Volodymyr Mnih의 [paper @arXiv.org](http://arxiv.org/abs/1312.5602)

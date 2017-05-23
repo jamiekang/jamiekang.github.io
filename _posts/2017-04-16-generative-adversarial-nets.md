@@ -3,7 +3,7 @@ layout: post
 title: Generative Adversarial Nets
 use_math: true
 date: 2017-04-16 04:42:34 +0900
-tags: [pr12, paper, machine-learning, gan, unsupervised-learning] 
+tags: [pr12, paper, machine-learning, gan, generative-model, unsupervised-learning] 
 ---
 
 오늘 소개하려는 Ian J. Goodfellow의 ["Generative Adversarial Nets"](http://arxiv.org/abs/1406.2661v1)는 이달 초 시작된 [PR12](https://youtu.be/auKdde7Anr8?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS)의 첫 번째 논문입니다. 
@@ -50,10 +50,10 @@ $$
 
 최근 GAN의 인기는 앞서 언급한 Arjovsky의 [WGAN](https://arxiv.org/pdf/1701.07875v1.pdf), Radford의 [DCGAN](https://arxiv.org/abs/1511.06434), Chen의 [InfoGAN](https://arxiv.org/abs/1606.03657) 등 다양한 후속 연구에 힘입은 바가 큽니다. 이에 대해서는 다른 포스팅에서 더 다뤄보도록 하겠습니다.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/L3hz57whyNw?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS" frameborder="0" allowfullscreen></iframe>
-
-<br>
 -- *[Jamie](http://twitter.com/JiyangKang);*
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L3hz57whyNw?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS" frameborder="0" allowfullscreen></iframe>
+<br>
 
 **References**
 - Ian Goodfellow의 [paper @arXiv.org](http://arxiv.org/abs/1406.2661v1) 

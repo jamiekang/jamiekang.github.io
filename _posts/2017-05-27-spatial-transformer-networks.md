@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Deformable Convolutional Networks
+title: Spatial Transformer Networks
 use_math: true
-date: 2017-04-16 09:29:10 +0900
+date: 2017-05-27 22:29:10 +0900
 tags: [pr12, paper, machine-learning, cnn] 
+published: false
 ---
 
 이번 논문은 Microsoft Research Asia에서 2017년 3월에 공개한 ["Deformable Convolutional Networks"](https://arxiv.org/abs/1703.06211)입니다.
@@ -55,21 +56,30 @@ Neural network에서 convolutional layer와 fully-connected layer의 차이에 �
 
 지금까지 deep learning 분야의 많은 연구들이 predictor의 weight 값 $w$를 구하는 방법에 초점을 맞췄던 반면, 이 논문은 어떤 데이터 $x$를 뽑을 것인가에 초점을 맞췄다는 점이 [참신하다는 평가](https://www.reddit.com/r/MachineLearning/comments/60kr4t/r_deformable_convolutional_networks_from_msra/)를 받고 있습니다. 이제 갓 발표된 논문인 만큼, 향후 다른 연구에 어떤 영향을 미칠지 앞으로 주목할 필요가 있을 것 같군요.
 
+DeepMind의 실험 결과
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ywv0Xi2-14Y" frameborder="0" allowfullscreen></iframe>
+
+Max Jaderberg의 발표 동영상
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T5k0GnBmZVI" frameborder="0" allowfullscreen></iframe>
+
+PR12의 발표 동영상
+
+<br>
 -- *[Jamie](http://twitter.com/JiyangKang);*
 <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RRwaz0fBQ0Y?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS" frameborder="0" allowfullscreen></iframe>
-<br>
 
 **References**
 
-- Jifeng Dai의 논문 ["Deformable Convolutional Networks"](https://arxiv.org/abs/1703.06211)
-- Jifeng Dai 및 저자들의 GitHub [repository](https://github.com/msracver/Deformable-ConvNets)
-- 엄태웅 님의 슬라이드 ["Deformable Convolutional Networks"](https://www.slideshare.net/TerryTaewoongUm/deformable-convolutional-network-2017)
-- 엄태웅 님의 동영상 ["PR-002: Deformable Convolutional Networks (2017)"](https://youtu.be/RRwaz0fBQ0Y?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS)
-- Felix Lau의 [Notes on “Deformable Convolutional Networks”](https://medium.com/@phelixlau/notes-on-deformable-convolutional-networks-baaabbc11cf3)
-- Ross Girshick의 논문 ["Fast R-CNN"](https://arxiv.org/abs/1504.08083)
-- Ross Girshick의 슬라이드 ["Fast R-CNN"](http://www.robots.ox.ac.uk/~tvg/publications/talks/fast-rcnn-slides.pdf)
-- deepsense.io의 블로그 ["Region of interest pooling explained"](https://deepsense.io/region-of-interest-pooling-explained/)
-- deepsense.io의 블로그 ["Region of interest pooling in TensorFlow – example"](https://deepsense.io/region-of-interest-pooling-in-tensorflow-example/)
-- Wikipedia의 [CNN (Convolutional Neural Network)](https://en.wikipedia.org/wiki/Convolutional_neural_network)
-- Reddit의 ["What is the difference between a Fully-Connected and Convolutional Neural Network?"](https://www.reddit.com/r/MachineLearning/comments/3yy7ko/what_is_the_difference_between_a_fullyconnected/)
+- Max Jaderberg의 논문 ["Spatial Transformer Networks"](https://arxiv.org/abs/1506.02025)
+- Max Jaderberg의 발표 동영상 ["Symposium: Deep Learning - Max Jaderberg"](https://youtu.be/T5k0GnBmZVI)
+- GitHub의 [Lasagne의 example](https://github.com/Lasagne/Recipes/blob/master/examples/spatial_transformer_network.ipynb)
+- Tensorflow GitHub의 [Spatial Transformer Networks](https://github.com/tensorflow/models/tree/master/transformer)
+- Xavier Giro의 슬라이드 ["Spatial Transformer Networks"](https://www.slideshare.net/xavigiro/spatial-transformer-networks)
+- Okay Arik의 슬라이드 ["Spatial Transformer Networks"](http://web.cs.hacettepe.edu.tr/~aykut/classes/spring2016/bil722/slides/w08-transformer_network.pdf)
+- 강지양 님의 슬라이드 ["Spatial Transformer Networks (2015)"](https://www.slideshare.net/???)
+- 강지양 님의 동영상 ["PR-011: Spatial Transformer Networks (2015)"]()
+- Kevin Nguyen의 Medium article ["Spatial Transformer Networks with Tensorflow"](https://medium.com/wonks-this-way/spatial-transformer-networks-with-tensorflow-2eaed0374a16)
+- Alban Desmaison의 torch article ["The power of Spatial Transformer Networks"](http://torch.ch/blog/2015/09/07/spatial_transformers.html)
+- Kevin Zakka의 blog post ["Deep Learning Paper Implementations: Spatial Transformer Networks - Part I"](https://kevinzakka.github.io/2017/01/10/stn-part1/)
+- Wikipedia의 [Thin plate spline](https://en.wikipedia.org/wiki/Thin_plate_spline)

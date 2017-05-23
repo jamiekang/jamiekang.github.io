@@ -31,3 +31,6 @@
 
 - slug: supervised-learning
   name: Supervised Learning
+
+- slug: generative-model
+  name: Generative Model

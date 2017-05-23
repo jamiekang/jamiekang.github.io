@@ -152,10 +152,10 @@ $$
 
 ![Fig.1(d)]({{ site.baseurl }}/media/2017-05-15-deep-photo-style-transfer-fig1d.jpg)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YF6nLVDlznE" frameborder="0" allowfullscreen></iframe>
-
-<br>
 -- *[Jamie](http://twitter.com/JiyangKang);*
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YF6nLVDlznE" frameborder="0" allowfullscreen></iframe>
+<br>
 
 **References**
 

@@ -52,10 +52,10 @@ $$
 
 ![Fig.3]({{ site.baseurl }}/media/2017-05-16-reverse-classification-accuracy-fig3.jpg)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jbnjzyJDldA" frameborder="0" allowfullscreen></iframe>
-
-<br>
 -- *[Jamie](http://twitter.com/JiyangKang);*
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jbnjzyJDldA" frameborder="0" allowfullscreen></iframe>
+<br>
 
 **References**
 
