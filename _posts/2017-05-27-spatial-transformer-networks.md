@@ -2,7 +2,7 @@
 layout: post
 title: Spatial Transformer Networks
 use_math: true
-date: 2017-05-27 22:29:10 +0900
+date: 2017-05-27 05:29:10 +0900
 tags: [pr12, paper, machine-learning, cnn] 
 published: true
 ---
