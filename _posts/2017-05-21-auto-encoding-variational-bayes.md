@@ -172,6 +172,9 @@ def vae_loss(y_true, y_pred):
 	- 결과물의 quality가 떨어진다(blurry하다).
 	- $q$가 optimal하더라도 $p$와 같지 않을 수도 있다.
 
+(*추가*) 아래는 [Company.AI](https://www.company.ai/) 최정원 님의 자료에서 가져온 비교표입니다.
+![choi-comparison]({{ site.baseurl }}/media/2017-05-21-auto-encoding-variational-bayes-choi-comparison.png)
+
 후속 연구로 이 논문의 저자들은 VAE를 classification 문제로 확장해 semi-supervised learning에 적용하는 논문 ["Semi-Supervised Learning with Deep Generative Models"](https://arxiv.org/abs/1406.5298)(NIPS \'14)을 냈습니다. 
 또한, 최근 가장 많이 사용되는 optimizer인 [Adam](https://arxiv.org/abs/1412.6980)을 2015년에 발표하기도 했습니다.
 이 논문들에 대해서는 나중에 다른 post에서 소개 드리겠습니다.

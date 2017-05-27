@@ -387,6 +387,15 @@ a.sidebar-nav-item:focus {
   color: inherit;
 }
 
+/* by Jamie Kang */
+.copyright {
+  padding-left: 0;
+  list-style: none;
+}
+.copyright small {
+  font-size: 50%;
+  color: #eeeeee;
+}
 
 /*
  * Pagination
