@@ -7,7 +7,7 @@ tags: [pr12, paper, machine-learning, cnn]
 published: true
 ---
 
-이번 논문은 Google DeepMind가 2015년 NIPS에 발표한 ["Spatial Transformer Networks"](https://arxiv.org/abs/1506.02025)입니다.
+이번 논문은 Google DeepMind에서 2015년 NIPS에 발표한 ["Spatial Transformer Networks"](https://arxiv.org/abs/1506.02025)입니다.
 
 이 논문의 저자들은, [**CNN** (Convolutional Neural Network)](https://en.wikipedia.org/wiki/Convolutional_neural_network)이 spatially invariant하지 못한 점이 근본적인 한계라고 주장합니다. 
 CNN의 max-pooling layer가 그런 점을 다소 만족시켜 주기는 하지만, $2 \times 2$ 픽셀 단위의 연산으로는 데이터의 다양한 [spatial variability](https://en.wikipedia.org/wiki/Spatial_variability)에 대처하기 어렵다는 것입니다.
@@ -275,8 +275,8 @@ ST-CNN Multi은 아래 그림의 (a)와 같이 CNN의 처음 4개의 convolution
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T5k0GnBmZVI" frameborder="0" allowfullscreen></iframe>
 <br>
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/RRwaz0fBQ0Y?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS" frameborder="0" allowfullscreen></iframe>
-<br> -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rv3osRZWGbg" frameborder="0" allowfullscreen></iframe>
+<br>
 
 **References**
 
