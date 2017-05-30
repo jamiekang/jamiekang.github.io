@@ -275,7 +275,7 @@ ST-CNN Multi은 아래 그림의 (a)와 같이 CNN의 처음 4개의 convolution
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T5k0GnBmZVI" frameborder="0" allowfullscreen></iframe>
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Rv3osRZWGbg" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rv3osRZWGbg?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS" frameborder="0" allowfullscreen></iframe>
 <br>
 
 **References**
@@ -303,7 +303,5 @@ ST-CNN Multi은 아래 그림의 (a)와 같이 CNN의 처음 4개의 convolution
 - Stanford의 [ImageNet dataset](http://www.image-net.org/)
 - Sergey Ioffe의 논문 ["Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift"](https://arxiv.org/abs/1502.03167)
 - Jifeng Dai의 논문 ["Deformable Convolutional Networks"](https://arxiv.org/abs/1703.06211)
-
-##### <span style="color:#fefefe">Copyright © *Jiyang "Jamie" Kang (강지양)* and *Pull Requests to Tomorrow*, 2017. All rights reserved.</span> #####
 
 
