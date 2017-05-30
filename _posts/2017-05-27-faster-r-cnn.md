@@ -193,12 +193,12 @@ Faster R-CNN의 특징을 정리하면 다음과 같습니다.
 이런 점을 극복하기 위해, 최근에는 unified detection에 해당하는 연구들이 등장하는 추세입니다.
 대표적인 것으로는 [Yolo](https://arxiv.org/abs/1506.02640), [SSD (Single Shot multibox Detector)](https://arxiv.org/abs/1512.02325)가 있습니다.
 
-Yolo
+**Yolo**
 - Detection 문제를 regression 문제로 접근
 - 하나의 convolution network 사용
 - 전체 image를 한 번에 처리하므로 매우 빠르다.
 
-SSD
+**SSD**
 - Yolo보다 빠르고 Faster R-CNN 만큼 정확하다.
 - Category와 box offset을 prediction한다.
 - Feature map에 small convolutional filter 사용
