@@ -141,7 +141,7 @@ word2vec으로 pre-training하면 높은 성능을 낼 수 있음을 보였다�
 - Wikipedia의 [Word embedding](https://en.wikipedia.org/wiki/Word_embedding)
 - Wikipedia의 [Word2vec](https://en.wikipedia.org/wiki/Word2vec)
 - Tomas Mikolov의 논문 (word2vec) ["Distributed Representations of Words and Phrases and their Compositionality"](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)
-- 김범수 님의 블로그 ["word2vec 관련 이론 정리"](https://shuuki4.wordpress.com/2016/01/27/word2vec-%EA%B4%80%EB%A0%A8-%EC%9D%B4%EB%A1%A0-%EC%A0%95%EB%A6%AC/)님
+- 김범수 님의 블로그 ["word2vec 관련 이론 정리"](https://shuuki4.wordpress.com/2016/01/27/word2vec-%EA%B4%80%EB%A0%A8-%EC%9D%B4%EB%A1%A0-%EC%A0%95%EB%A6%AC/)
 - R. Collobert의 논문 ["Natural Language Processing (almost) from Scratch"](https://arxiv.org/abs/1103.0398)
 - Wikipedia의 [Dropout](https://en.wikipedia.org/wiki/Dropout_(neural_networks))
 - Adadelta 논문 ["ADADELTA: An Adaptive Learning Rate Method"](https://arxiv.org/abs/1212.5701)
