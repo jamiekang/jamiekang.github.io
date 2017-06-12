@@ -34,3 +34,9 @@
 
 - slug: generative-model
   name: Generative Model
+
+- slug: nlp
+  name: NLP
+
+- slug: rnn
+  name: RNN
