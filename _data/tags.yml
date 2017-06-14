@@ -40,3 +40,6 @@
 
 - slug: rnn
   name: RNN
+
+- slug: dann
+  name: DANN
