@@ -43,3 +43,9 @@
 
 - slug: dann
   name: DANN
+
+- slug: nmt
+  name: NMT
+
+- slug: smt
+  name: SMT
