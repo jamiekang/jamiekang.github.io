@@ -16,7 +16,7 @@ Ross Girshick의 흔히 R-CNN이라고 하는 2013년 논문 ["Rich feature hier
 그리고 2015년 논문 ["Fast R-CNN"](https://arxiv.org/abs/1504.08083)에 이어지는 연구입니다.
 
 
-## Glossary ##
+## Introduction ##
 
 Object detection 계열의 논문에서 자주 나오는 용어에 대해 먼저 간단히 설명하겠습니다.
 

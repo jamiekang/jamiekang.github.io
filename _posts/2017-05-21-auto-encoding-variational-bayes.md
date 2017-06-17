@@ -12,7 +12,7 @@ Ian J. Goodfellow의 ["GAN"](http://arxiv.org/abs/1406.2661v1)을 이해하려�
 이 논문은 수학식이 중심이라 이해하기가 쉽지 않습니다만, 다행히 그동안 많은 분들이 해오신 풀이가 이미 있기 때문에 이번 포스팅에서는 가급적 그림과 개념적인 이해 중심으로 설명하겠습니다.
 
 
-## Glossary ##
+## Introduction ##
 
 ### Generative Model ###
 

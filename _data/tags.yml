@@ -49,3 +49,6 @@
 
 - slug: smt
   name: SMT
+
+- slug: srcnn
+  name: SRCNN
